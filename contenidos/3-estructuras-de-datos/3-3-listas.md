@@ -255,10 +255,10 @@ func (n *LinkedNode[T]) Data() T {
 //
 // Uso:
 //
-// node.SetNext(newNode) // Establece el nodo siguiente al nodo actual.
+// node.SetNext(newNode) // Establece el siguiente nodo de `node`.
 //
 // Parámetros:
-//   - `newNext`: el nodo siguiente al nodo actual.
+//   - `newNext`: el nodo que se quiere establecer como el siguiente del nodo actual.
 func (n *LinkedNode[T]) SetNext(newNext *LinkedNode[T]) {
     n.next = newNext
 }
